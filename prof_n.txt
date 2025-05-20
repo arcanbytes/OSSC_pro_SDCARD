@@ -1,0 +1,7 @@
+MyDefault
+PS2_480p/i_P4
+PS2_480p/i/W_P4
+PS2_240p_Pixel
+PS2_480i_CSNK2
+NS_720p1080pScl
+NS_Retro_LM
