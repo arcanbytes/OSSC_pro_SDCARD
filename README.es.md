@@ -3,7 +3,7 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
 
-Este repositorio contiene mi configuración personalizada para la tarjeta SD del OSSC Pro, incluyendo perfiles, algoritmos de escalado y máscaras CRT adicionales. También se incluye una breve guía para la instalación opcional de un ventilador.
+Este repositorio contiene mi configuración personalizada para la tarjeta SD del OSSC Pro, incluyendo perfiles, algoritmos de escalado y máscaras CRT adicionales.
 
 
 ## Contenido de la Tarjeta SD
