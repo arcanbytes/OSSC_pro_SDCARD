@@ -1,6 +1,6 @@
 # OSSC Pro SD CARD
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
 
 This repository contains my custom configuration for the OSSC Pro SD card, including profiles, scaling algorithms and additional CRT masks. 
