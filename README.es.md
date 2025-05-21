@@ -44,8 +44,8 @@ Adicionalmente, prof_n_i.txt mapea los slots de perfiles internos del OSSC Pro a
 En la carpeta scl_alg/ encontrarás mis configuraciones personalizadas en formato .cfg. Estos combinan algoritmos internos del OSSC Pro (nearest, lanczos3, lanczos3_13, lanczos4, gs_sharp, gs_medium, gs_soft) con filtros de 64 fases del proyecto MiSTer (https://github.com/MiSTer-devel/Filters_MiSTer/) como Bicubic.txt, SNES Interpolation, Scanlines, etc..
 
 Nota: Los algoritmos de escalado en formato .txt son filtros de 64 fases, ya que otras fases no son compatibles con el OSSC Pro. Si deseas usar efectos visuales como Scanlines_*.txt, actívalos solo en la línea 2 de tu archivo .cfg y no combines los scanlines de los algoritmos de escalado con la función de scanlines interna del OSSC Pro.
-## Máscaras CRT (shmask/)
-La carpeta shmask/ contiene archivos .txt con máscaras CRT del proyecto MiSTer (https://github.com/MiSTer-devel/ShadowMasks_MiSTer). Estas se cargan en el menú Post‑proc → Shadow mask → Custom del OSSC Pro y se dividen en:
+## Shadow masks (shmask/)
+La carpeta shmask/ contiene archivos .txt con máscaras de sombra (shadow masks) del proyecto MiSTer (https://github.com/MiSTer-devel/ShadowMasks_MiSTer). Estas se cargan en el menú Post‑proc → Shadow mask → Custom del OSSC Pro y se dividen en:
 
 * Máscaras simples (monocromáticas), como rejillas o franjas verticales.
 * Máscaras complejas (multicromáticas), ordenadas por subpíxeles (RGB, BGR, etc.), incluyendo archivos raíz como PVM, Trinitron o Bayer.
