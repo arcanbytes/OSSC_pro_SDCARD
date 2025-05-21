@@ -41,7 +41,7 @@ The prof_n.txt file associates these slots with names that are readable in the O
 
 Additionally, prof_n_i.txt maps OSSC Pro internal profile slots to custom names.
 ## Scaling Algorithms (scl_alg/)
-In the scl_alg/ folder you will find my custom settings in .cfg format. These combine internal OSSC Pro algorithms (like nearest, lanczos3, gs_soft) with 64 phase filters from the MiSTer project (https://github.com/MiSTer-devel/Filters_MiSTer/) like Bicubic.txt, SNES Interpolation, Scanlines, etc..
+In the scl_alg/ folder you will find my custom settings in .cfg format. These combine internal OSSC Pro algorithms (nearest, lanczos3, lanczos3_13, lanczos4, gs_sharp, gs_medium, gs_soft) with 64 phase filters from the MiSTer project (https://github.com/MiSTer-devel/Filters_MiSTer/) like Bicubic.txt, SNES Interpolation, Scanlines, etc..
 
 Note: The scaling algorithms in .txt format are 64-phase filters, as other phases are not supported by OSSC Pro. If you want to use visual effects like Scanlines_*.txt, activate them only in line 2 of your .cfg file and do not combine the scanlines of the scaling algorithms with the internal scanlines function of OSSC Pro.
 ## CRT masks (shmask/)
